@@ -4,8 +4,5 @@ if number > 25:
 else:
     i = 1
     while i <= number:
-        if i % 2 == 0:
-            print(f"{i} is even")
-        else:
-            print(f"{i} is odd")
-        i += 1
+            print(i)
+            i += 1

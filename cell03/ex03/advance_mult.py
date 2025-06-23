@@ -1,7 +1,9 @@
 i = 1
 while i <= 10:
+    print(f"Table de {i} :", end=" ")
     j = 1
     while j <= 10:
-        print(f"{i} x {j} = {i * j}")
+        print(i * j, end=" ")
         j += 1
+    print()
     i += 1

@@ -1,5 +1,5 @@
 import math
 
 num = float(input("Enter a number: "))
-rounded = math.ceil(num)
-print(str(rounded).replace(",",""))
+rounded = int(num) if num == int(num) else int(num) + 1
+print(rounded)
