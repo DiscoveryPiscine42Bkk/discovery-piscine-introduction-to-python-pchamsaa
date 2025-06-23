@@ -1,4 +1,4 @@
-correct_password = "1234"
+correct_password = "Python is awesome"
 user_input = input("Enter password: ")
 
 if user_input == correct_password:
